@@ -187,7 +187,7 @@ input:focus {
   text-align: justify;
 }
 
-.menu {
+/*.menu {
   display: flex;
   justify-content:center;
   text-align: center;
@@ -202,6 +202,31 @@ input:focus {
   font-size: 0.8rem;
   display: inline-block;
   margin: auto;
+}
+.menu a {
+  color: #555;
+  padding: 10px;
+  border: 1px solid #f29400;
+  border-radius: 4px;
+  cursor: pointer;
+}*/
+.menu {
+  display: flex;
+  text-align: center;
+  margin: 1.5rem auto;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 0;
+}
+.menu li {
+  text-transform: capitalize;
+  font-size: 0.6em;
+  margin: auto;
+  align-self: stretch;
 }
 .menu a {
   color: #555;

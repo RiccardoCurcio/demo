@@ -203,18 +203,17 @@ input:focus {
 
 .menu {
   display: flex;
-  justify-content:center;
   text-align: center;
   margin: 3rem auto;
 }
 .menu ul {
   list-style: none;
-  display: block;
+  display: flex;
+  width: 100%;
 }
 .menu li {
   text-transform: capitalize;
   font-size: 1.3rem;
-  display: inline-block;
   margin: auto;
 }
 .menu a {
