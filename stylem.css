@@ -224,7 +224,7 @@ input:focus {
 }
 .menu li {
   text-transform: capitalize;
-  font-size: 0.6em;
+  font-size: 0.5em;
   margin: auto;
   align-self: stretch;
 }
