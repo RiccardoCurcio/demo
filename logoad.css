@@ -1,0 +1,19 @@
+.brid-branding {
+  -webkit-animation: fadeOut 2s forwards;
+   animation: fadeOut 2s forwards;
+   -webkit-animation-delay: 34s;
+   animation-delay: 34s;
+  }
+
+  @-webkit-keyframes fadeOut {
+      from {opacity: 1;}
+      to {opacity: 0;}
+  }
+
+  @keyframes fadeOut {
+      from {opacity: 1;}
+      to {opacity: 0;}
+  }
+
+
+  .brid-button{}
